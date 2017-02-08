@@ -19,6 +19,8 @@
 						<hotfixBranchPrefix>fix-</hotfixBranchPrefix>
 						<versionTagPrefix>ds-</versionTagPrefix>
 					</flowInitContext>
+					<noDeploy>true</noDeploy>
+					<scmCommentPrefix>[RELEASE] </scmCommentPrefix>
 				</configuration>
 			</plugin>
 		</plugins>
