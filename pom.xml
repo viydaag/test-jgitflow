@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>test</groupId>
 	<artifactId>jgit-flow</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 
 	<build>
 		<plugins>
@@ -21,6 +21,10 @@
 					</flowInitContext>
 					<noDeploy>true</noDeploy>
 					<scmCommentPrefix>[RELEASE] </scmCommentPrefix>
+					<autoVersionSubmodules>true</autoVersionSubmodules>
+			        <pushFeatures>true</pushFeatures>
+			        <pushReleases>true</pushReleases>
+			        <pushHotfixes>true</pushHotfixes>
 				</configuration>
 			</plugin>
 		</plugins>
