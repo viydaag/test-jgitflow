@@ -21,6 +21,10 @@
 					</flowInitContext>
 					<noDeploy>true</noDeploy>
 					<scmCommentPrefix>[RELEASE] </scmCommentPrefix>
+					<autoVersionSubmodules>true</autoVersionSubmodules>
+			        <pushFeatures>true</pushFeatures>
+			        <pushReleases>true</pushReleases>
+			        <pushHotfixes>true</pushHotfixes>
 				</configuration>
 			</plugin>
 		</plugins>
